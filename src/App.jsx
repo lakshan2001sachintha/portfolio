@@ -13,6 +13,7 @@ function App() {
         <About />
 		<About />
 		<About />
+    <About />
       </div>
     </div>
   );
