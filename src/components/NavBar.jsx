@@ -8,6 +8,7 @@ function NavBar() {
        <MenuLink linkname='Service' url='#services'/>
        <MenuLink linkname='Work' url='#works'/>
        <MenuLink linkname='About' url='#about'/>
+       <MenuLink linkname='Skills' url='#skills'/>
     </div>
   )
 }
