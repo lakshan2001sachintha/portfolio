@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="flex flex-col gap-y-8 py-16 px-3 md:px-3">
-      <h1 className="text-3xl font-bold text-indigo-600 dark:text-indigo-500">Skills</h1>
+      <h1 className="text-3xl font-bold text-indigo-600 dark:text-indigo-500 mb-16">Skills</h1>
 
       {/* Row 1 */}
       <div className="flex gap-16 justify-center">
@@ -16,6 +16,7 @@ const Skills = () => {
         <i className={`devicon-spring-plain ${iconClass}`}></i>
         <i className={`devicon-javascript-plain ${iconClass}`}></i>
         <i className={`devicon-react-original ${iconClass}`}></i>
+        <i className={`devicon-tailwindcss-plain ${iconClass}`}></i>
         <i className={`devicon-postgresql-plain ${iconClass}`}></i>
         <i className={`devicon-mongodb-plain ${iconClass}`}></i>
       </div>
