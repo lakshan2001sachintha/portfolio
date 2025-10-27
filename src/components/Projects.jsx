@@ -31,7 +31,7 @@ const Projects = () => {
     },
     {
       image : project4,
-      title : "E Commerce Web3",
+      title : "VISIT SRI LANKA",
       description : " This website provide reliable information about culture ,traditions ,travel destinations for foreigners. It will help for them easier to connect with the beauty and diversity of Sri Lanka",
       techstack : "•React •SpringBoot •PostgreSQL ",
       link : "https://github.com/lakshan2001sachintha/Visit_SriLanka.git"

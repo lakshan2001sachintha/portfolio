@@ -1,8 +1,9 @@
 import React from 'react'
 
-const CertificationCard = ({ image, title }) => {
+const CertificationCard = ({ image, title,link }) => {
   return (
-    <div className="flex flex-col gap-2 p-3 w-80 bg-gradient-to-r from-indigo-500/20 to-transparent items-center">
+   <div>
+      <div onClick={() => window.open(link, "_blank")} className="flex flex-col gap-2 p-3 w-80 bg-gradient-to-r from-indigo-500/20 to-transparent items-center">
       <img
         src={image}
         alt={title}
@@ -12,6 +13,7 @@ const CertificationCard = ({ image, title }) => {
         {title}
       </h2>
     </div>
+   </div>
   );
 };
 

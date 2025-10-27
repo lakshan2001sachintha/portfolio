@@ -9,19 +9,23 @@ const Certification = () => {
   const certify = [
     {
       image: certificate1,
-      title: "Linux Basic / Linux Foundation"
+      title: "Linux Basic / Linux Foundation",
+      link : "https://www.credly.com/badges/e0de947a-6382-4e35-bd62-c1a7aa051ad0"
     },
     {
       image: certificate2,
-      title: "Docker Beginner / KodeKloud"
+      title: "Docker Beginner / KodeKloud",
+      link : "https://learn.kodekloud.com/certificate/a6cf4bdc-5f0a-455f-8e6c-b5a29fdae090"
     },
     {
       image: certificate3,
-      title: "Agile Project Management Moratuwa University DP Education"  
+      title: "Agile Project Management Moratuwa University DP Education",
+      link : "https://www.linkedin.com/posts/sachintha-lakshan-ba293a2b4_pm-activity-7306227742562209792-fGLR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEuZ6SoB32lU3lY-XxNsm0A_C-J3f7HjJLY"  
     },
     {
       image: certificate4,
-      title: "Postman Essentials / KodeKloud"  
+      title: "Postman Essentials / KodeKloud",
+      link : "https://learn.kodekloud.com/certificate/88def181-24f8-43ea-a064-f7c22bac9725"  
     }
   ];
 
