@@ -1,5 +1,6 @@
 import React from 'react'
 import one from '../assets/one.jpg'
+import pdf from '../assets/Sachintha Lakshan.pdf'
 
 function Role() {
   return (
@@ -18,7 +19,8 @@ function Role() {
 				</div>
 
 				<a
-				href="#"
+				href={pdf}
+				download={pdf}
 				className="inline-block px-8 py-3 rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-200 font-medium"
 				>
 				Download my CV

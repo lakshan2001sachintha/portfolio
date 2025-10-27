@@ -5,10 +5,10 @@ function NavBar() {
   return (
     <div className='flex gap-24 pt-14 pb-16 font-bold'>
        <MenuLink linkname='Home' url='#home'/>
-       <MenuLink linkname='Service' url='#services'/>
-       <MenuLink linkname='Work' url='#works'/>
        <MenuLink linkname='About' url='#about'/>
        <MenuLink linkname='Skills' url='#skills'/>
+       <MenuLink linkname='Projects' url='#projects'/>
+       <MenuLink linkname='Certifications' url='#certifications'/>
     </div>
   )
 }
