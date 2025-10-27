@@ -13,10 +13,10 @@ function Role() {
 				<h1 className="text-3xl md:text-5xl font-bold text-indigo-600 dark:text-indigo-400 mb-4">
 				Hi, I'm Sachintha Lakshan
 				</h1>
-				<p className="text-gray-600 dark:text-gray-300 text-base md:text-lg mb-6">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi rerum quia harum
-				eaque quae laboriosam quisquam distinctio.
-				</p>
+				<div className="text-gray-600 dark:text-gray-300 text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl font-light mb-6">
+				Intern Software Engineer
+				</div>
+
 				<a
 				href="#"
 				className="inline-block px-8 py-3 rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors duration-200 font-medium"

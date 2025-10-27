@@ -7,7 +7,7 @@ const Skills = () => {
   const iconClass = "text-6xl bg-gradient-to-t from-indigo-600 to-white bg-clip-text text-transparent";
 
   return (
-    <section id="skills" className="flex flex-col gap-y-8 py-16 px-3 md:px-3">
+    <section id="skills" className="flex flex-col gap-y-8 py-16 px-3 md:px-3 sm:py-16 lg:py-24">
       <h1 className="text-3xl font-bold text-indigo-600 dark:text-indigo-500 mb-16">Skills</h1>
 
       {/* Row 1 */}
