@@ -3,7 +3,7 @@ import React from 'react'
 const CertificationCard = ({ image, title,link }) => {
   return (
    <div>
-      <div onClick={() => window.open(link, "_blank")} className="flex flex-col gap-2 p-3 w-80 bg-gradient-to-r from-indigo-500/20 to-transparent items-center">
+      <div onClick={() => window.open(link, "_blank")} className="flex flex-col gap-2 p-3 w-full max-w-xs sm:w-80 bg-gradient-to-r from-indigo-500/20 to-transparent items-center mx-auto text-center">
       <img
         src={image}
         alt={title}

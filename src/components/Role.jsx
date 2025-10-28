@@ -13,7 +13,7 @@ function Role() {
 			>
 			{/* Text Section */}
 			<div className="text-center md:text-left max-w-xl">
-				<h1 className="text-3xl md:text-5xl font-bold text-indigo-600 dark:text-indigo-400 mb-4">
+				<h1 className="mt-6 text-3xl md:text-5xl sm:mt-10 font-bold text-indigo-600 dark:text-indigo-400 mb-4">
 				Hi, I'm Sachintha Lakshan
 				</h1>
 				<div className="text-gray-600 dark:text-gray-300 text-3xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl font-light mb-6">
