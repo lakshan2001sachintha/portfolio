@@ -4,7 +4,7 @@ import 'devicon/devicon.min.css';
 
 function NavBar() {
   return (
-    <nav className="flex flex-col sm:flex-row sm:justify-center items-center gap-6 sm:gap-24 pt-10 sm:pt-14 pb-10 sm:pb-16 font-bold">
+    <nav className="hidden sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-24 sm:pt-14 sm:pb-16 font-bold">
       <MenuLink linkname="Home" url="#home" />
       <MenuLink linkname="About" url="#about" />
       <MenuLink linkname="Skills" url="#skills" />
