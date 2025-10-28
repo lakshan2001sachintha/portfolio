@@ -4,14 +4,14 @@ import 'devicon/devicon.min.css'; // Make sure devicon is installed
 
 const Skills = () => {
   // Common class for all icons with gradient
-  const iconClass = "text-6xl bg-gradient-to-t from-indigo-600 to-white bg-clip-text text-transparent";
+  const iconClass = "text-4xl sm:text-5xl md:text-5xl bg-gradient-to-t from-indigo-600 to-white bg-clip-text text-transparenttext-6xl bg-gradient-to-t from-indigo-600 to-white bg-clip-text text-transparent";
 
   return (
     <section id="skills" className="flex flex-col gap-y-8 py-16 px-3 md:px-3 sm:py-16 lg:py-24">
-      <h1 className="text-3xl font-bold text-indigo-600 dark:text-indigo-500 mb-16">Skills</h1>
+      <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-500 mb-16">Skills</h1>
 
       {/* Row 1 */}
-      <div className="flex gap-16 justify-center">
+      <div className="flex gap-6 sm:gap-14 md:gap-16 justify-center">
         <i className={`devicon-java-plain ${iconClass}`}></i>
         <i className={`devicon-spring-plain ${iconClass}`}></i>
         <i className={`devicon-javascript-plain ${iconClass}`}></i>

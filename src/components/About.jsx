@@ -5,7 +5,7 @@ const About = () => {
     <div>
       <section
 			id="about"
-			className="flex flex-col-reverse md:flex-col gap-x-8 py-16 px-3 md:px-3  sm:py-16 lg:py-24 "
+			className="flex flex-col gap-x-8 py-16 px-3 md:px-3 sm:py-16 lg:py-24 "
 			>
           <h1 className='text-3xl font-bold mb-5 text-indigo-600 dark:text-indigo-500 mb-16'>About Me</h1>
           <div className='text-amber-50 mr-10 font-light p-5 w-full bg-gradient-to-r from-indigo-500/20 to-transparent break-words text-xl'>
