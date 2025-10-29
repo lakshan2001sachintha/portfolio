@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="flex flex-col gap-y-8 py-16 px-3 md:px-3 sm:py-16 lg:py-24">
-      <h1 className="text-xl font-bold text-indigo-600 dark:text-indigo-500 mb-16">Skills</h1>
+      <h1 className="text-3xl font-bold text-indigo-600 dark:text-indigo-500 mb-16">Development Stack</h1>
 
       {/* Row 1 */}
       <div className="flex gap-6 sm:gap-14 md:gap-16 justify-center">

@@ -45,9 +45,11 @@ function Role() {
 				<img
 					src={two}
 					alt="Sachintha Lakshan profile"
-					className="w-80 h-80 md:w-80 md:h-80 object-cover shadow-[10px_0_60px_-5px_rgba(99,102,241,0.6)]"
+					className="w-80 h-80 md:w-80 md:h-80 object-cover shadow-[10px_0_60px_-5px_rgba(99,102,241,0.6)] animate-float"
 				/>
 				</div>
+
+
 			</section>
 
 	</div>
