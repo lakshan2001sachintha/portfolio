@@ -1,6 +1,6 @@
 import React from 'react'
 import two from '../assets/two.png'
-import pdf from '../assets/Sachintha Lakshan.pdf'
+import pdf from '../assets/Sachintha Lakshan CV.pdf'
 import 'devicon/devicon.min.css'; 
 
 function Role() {
