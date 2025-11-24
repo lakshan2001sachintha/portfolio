@@ -4,6 +4,7 @@ import certificate1 from '../assets/certificate-one.png'
 import certificate2 from '../assets/certificate-two.png'
 import certificate3 from '../assets/certificate-three.png'
 import certificate4 from '../assets/certificate-four.png'
+import certificate5 from '../assets/certificate-five.png'
 
 const Certification = () => {
   const certify = [
@@ -26,6 +27,11 @@ const Certification = () => {
       image: certificate4,
       title: "Postman Essentials / KodeKloud",
       link : "https://learn.kodekloud.com/certificate/88def181-24f8-43ea-a064-f7c22bac9725"  
+    },
+    {
+      image: certificate5,
+      title: "Multicloud Network Associate",
+      link : "https://www.linkedin.com/posts/sachintha-lakshan-ba293a2b4_aviatrix-activity-7396212517565300736-J6or?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEuZ6SoB32lU3lY-XxNsm0A_C-J3f7HjJLY"
     }
   ];
 
