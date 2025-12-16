@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import CertificationCard from './CertificationCard'
 import certificate1 from '../assets/certificate-one.png'
 import certificate2 from '../assets/certificate-two.png'
@@ -35,18 +36,40 @@ const Certification = () => {
     }
   ];
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15
+      }
+    }
+  };
+
   return (
     <div>
       <section id="certifications" className="flex flex-col gap-y-8 py-16 px-3 md:px-3 sm:py-16 lg:py-24">
-        <h1 className="text-3xl font-bold text-indigo-600 dark:text-indigo-500 mb-12">
-          Certifications
-        </h1>
+        <motion.h1 
+          className="text-3xl md:text-4xl font-bold mb-12 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          Certifications & Achievements
+        </motion.h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full max-w-5xl mx-auto sm:justify-items-center">
+        <motion.div 
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl mx-auto"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+        >
           {certify.map((certification, index) => (
-            <CertificationCard key={index} {...certification} />
+            <CertificationCard key={index} index={index} {...certification} />
           ))}
-        </div>
+        </motion.div>
       </section>
     </div>
   );
