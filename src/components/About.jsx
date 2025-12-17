@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 
                 <p className='text-gray-600 dark:text-gray-300 leading-relaxed text-base md:text-lg'>
-                  Skilled in designing and developing responsive web applications using <span className="font-medium text-gray-800 dark:text-gray-100">React js</span>, <span className="font-medium text-gray-800 dark:text-gray-100">Next js</span>, <span className="font-medium text-gray-800 dark:text-gray-100">Spring Boot</span>, and databases such as NoSQL/SQL with hands-on experience in Agile/Scrum development.
+                  Skilled in designing and developing responsive web applications using <span className="font-medium text-gray-800 dark:text-gray-100">React js</span>, <span className="font-medium text-gray-800 dark:text-gray-100">Next js</span>, <span className="font-medium text-gray-800 dark:text-gray-100">ASP.NET</span>, <span className="font-medium text-gray-800 dark:text-gray-100">Spring Boot</span>, and databases such as SQL with hands-on experience in Agile/Scrum development.
                 </p>
                 
                 <div className="flex flex-wrap gap-3 pt-4">
