@@ -8,10 +8,14 @@ import Projects from './components/Projects';
 import Certification from './components/Certification';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import MeteorShower from './components/MeteorShower';
 
 function App() {
   return (
     <div className="bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-slate-950 dark:via-slate-900 dark:to-indigo-950 min-h-screen font-inter relative overflow-hidden">
+      {/* Galaxy meteor animation */}
+      <MeteorShower />
+      
       {/* Animated background elements */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-indigo-400/20 dark:bg-indigo-600/20 rounded-full blur-3xl animate-pulse"></div>
